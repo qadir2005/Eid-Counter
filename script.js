@@ -31,6 +31,8 @@ setInterval(()=>{
     eidCounter()
 }    , 1000);
 
+// AlhamDullilah chota sa project tha complete ho gya
+
 
 
 
