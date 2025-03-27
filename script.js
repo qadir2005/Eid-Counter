@@ -17,7 +17,9 @@ const displayminutes = Math.round(displaySeconds / 60)
 const displayHours = Math.round(displayminutes/60)
 const displayDays = Math.round(displayHours/24)
 
-
+if (diff===0){
+return
+}
     days.innerText = (displayDays) % 60
     hours.innerText= (displayHours) % 60
     minutes.innerText= (displayminutes) %60 
